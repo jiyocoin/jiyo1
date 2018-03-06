@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/jiyo_bg.qm</file>
+        <file alias="ca">locale/jiyo_ca.qm</file>
+        <file alias="cs">locale/jiyo_cs.qm</file>
+        <file alias="da">locale/jiyo_da.qm</file>
+        <file alias="de">locale/jiyo_de.qm</file>
+        <file alias="en">locale/jiyo_en.qm</file>
+        <file alias="en_US">locale/jiyo_en_US.qm</file>
+        <file alias="es">locale/jiyo_es.qm</file>
+        <file alias="fi">locale/jiyo_fi.qm</file>
+        <file alias="fr_FR">locale/jiyo_fr_FR.qm</file>
+        <file alias="hr">locale/jiyo_hr.qm</file>
+        <file alias="it">locale/jiyo_it.qm</file>
+        <file alias="ja">locale/jiyo_ja.qm</file>
+        <file alias="ko_KR">locale/jiyo_ko_KR.qm</file>
+        <file alias="nl">locale/jiyo_nl.qm</file>
+        <file alias="pl">locale/jiyo_pl.qm</file>
+        <file alias="pt">locale/jiyo_pt.qm</file>
+        <file alias="pt_BR">locale/jiyo_pt_BR.qm</file>
+        <file alias="ro_RO">locale/jiyo_ro_RO.qm</file>
+        <file alias="ru">locale/jiyo_ru.qm</file>
+        <file alias="sk">locale/jiyo_sk.qm</file>
+        <file alias="sv">locale/jiyo_sv.qm</file>
+        <file alias="tr">locale/jiyo_tr.qm</file>
+        <file alias="uk">locale/jiyo_uk.qm</file>
+        <file alias="zh_CN">locale/jiyo_zh_CN.qm</file>
+        <file alias="zh_TW">locale/jiyo_zh_TW.qm</file>
+    </qresource>
+</RCC>
