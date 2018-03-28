@@ -141,7 +141,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Bangkok Post 2nd March 2018 - February inflation up 0.42 Percent - Jiyo";
+        const char* pszTimestamp = "Bangkok Post 2nd March 2018 - February inflation up 0.42 Percent - Remapper";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
