@@ -140,7 +140,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Bangkok Post 2nd March 2018 - February inflation up 0.42 Percent - Remapper";
+        const char* pszTimestamp = "Bangkok Post 2nd March 2018 - February inflation up 0.42 Percent - Jiyo";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -160,12 +160,12 @@ public:
         assert(hashGenesisBlock == uint256("0x0000066e30a469e6a4a3fc73ffa500ba19d852e57e36e70dbb03d47fb865538d"));
         assert(genesis.hashMerkleRoot == uint256("0xae66311e55a622e07874d28791237bcfb45ad56ae0142b173e48e961439e66fd"));
 
-        vSeeds.push_back(CDNSSeedData("209.250.241.176", "209.250.241.176"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("209.250.243.131", "209.250.243.131"));       // Single node address
-        vSeeds.push_back(CDNSSeedData("45.77.239.108", "45.77.239.108"));       // Single node address
-		vSeeds.push_back(CDNSSeedData("45.32.235.211", "45.32.235.211"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("107.191.44.102", "107.191.44.102"));       // Single node address
-        vSeeds.push_back(CDNSSeedData("108.61.188.67", "108.61.188.67"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("seeds.jiyo.io", "seeds.jiyo.io"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("seed1.jiyo.io", "seed1.jiyo.io"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("seed2.jiyo.io", "seed2.jiyo.io"));       // Single node address
+	vSeeds.push_back(CDNSSeedData("seed3.jiyo.io", "seed3.jiyo.io"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("seed4.jiyo.io", "seed4.jiyo.io"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("seed5.jiyo.io", "seed5.jiyo.io"));       // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 43);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);
@@ -188,7 +188,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04b080934472357368be9982a8c138968958267ff5de3d70d92d2d436642dd1da3976b2b1ec62f934a6b925fc1ccab32205580d1d50554fb1da3c2d8b964c15d3d";
+        strSporkKey = "045d8beade428bcab21ee5008bcd523c7ddd675d4cf96049933b88c8ca1e68447bc885a1245271f5fba2be0432ca0818dd1c5be08e6a7d45a532460d8ffcaf738b";
         strObfuscationPoolDummyAddress = "Jeax8jHDQ1s2kHVjysEoTQncVdUrNBuXtp";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 
@@ -253,9 +253,9 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("45.76.61.28", "207.148.0.129"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("209.250.240.94", "45.77.239.30"));       // Single node address
-        vSeeds.push_back(CDNSSeedData("45.77.176.204", "45.76.226.204"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("testnet.jiyo.io", "testnet.jiyo.io"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("testnet1.jiyo.io", "testnet1.jiyo.io"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("testnet2.jiyo.io", "testnet2.jiyo.io"));       // Single node address
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet jiyo addresses start with 'x' or 'y'
@@ -279,7 +279,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "04188441e39d99aa69068ee07d26980f459b84465bbd765c6ee15d1aec5b76b5aebb01b24be184a1d3a12af61276549d96cc9499d909f8afc183132837d18d643d";
+        strSporkKey = "04118cc23502a023aae76b9440adf3d1bac3c4641389c02af20edd2d4e87b8243efc898e777650c2b835e3c434355514ef56f025b6358c5d8f41b204d423d792fb";
         strObfuscationPoolDummyAddress = "xp87cG8UEQgzs1Bk67Yk884C7pnQfAeo7q";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
