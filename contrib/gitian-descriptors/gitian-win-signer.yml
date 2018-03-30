@@ -8,7 +8,7 @@ packages:
 - "libssl-dev"
 - "autoconf"
 remotes:
-- "url": "https://github.com/jiyoproject/jiyo-detached-sigs.git"
+- "url": "https://github.com/jiyocoin/jiyo-core/jiyo-detached-sigs.git"
   "dir": "signature"
 files:
 - "osslsigncode-1.7.1.tar.gz"
