@@ -42,7 +42,7 @@ install:
     - if [ -n "$PACKAGES" ]; then travis_retry sudo apt-get update; fi
     - if [ -n "$PACKAGES" ]; then travis_retry sudo apt-get install --no-install-recommends --no-upgrade -qq $PACKAGES; fi
 before_script:
-    - sudo chmod +x $TRAVIS_BUILD_DIR/depends/depends/config.guess
+    - sudo chmod +x $TRAVIS_BUILD_DIR/depends/config.guess
     - sudo chmod +x $TRAVIS_BUILD_DIR/depends/config.sub
     - if [ "$CHECK_DOC" = 1 ]; then contrib/devtools/check-doc.py; fi
     #- sudo chmod +x contrib/devtools/logprint-scanner.py
