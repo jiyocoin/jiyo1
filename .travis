@@ -80,6 +80,6 @@ deploy:
     file_glob: true
     file: $TRAVIS_BUILD_DIR/bitcoin-i686-w64-mingw32/jiyo-1.0.3-win32-setup.exe
     on:
-      branch: master
-      repo: nashanas/jiyo-core
+      branch: 2.0.1
+      repo: jiyocoin/jiyo
       tags: false
